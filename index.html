@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href='css/fonts.css' rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f058def2e2.js"></script>
+    <link href='css/normalize.css' rel="stylesheet" type="text/css">
+    <link href='css/style.css' rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/Logo.ico">
+    <link href='css/responsive.css' rel="stylesheet" type="text/css">
+    <link href='css/animate.css' rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+
+    <title>Nate Blum</title>
+</head>
+
+<body>
+    <nav class="fixed-nav-bar">
+        <ul id="left-align-menubar">
+            <li class="nav-button"><a href="#main" id="top-link" class="nav-button-link">Nate Blum</a></li>
+        </ul>
+        <ul id="right-align-menubar">
+            <li class="nav-button"><a href="#tech-showcase" class="nav-button-link"><span class="fa fa-microchip fa-fw"></span> Tech</a></li>
+            <li class="nav-button"><a href="#pro-showcase" class="nav-button-link"><span class="fa fa-briefcase fa-fw"></span> Career</a></li>
+            <li class="nav-button"><a href="#camp-showcase" class="nav-button-link"><span class="fa fa-calendar fa-fw"></span> Camps</a></li>
+            <li class="nav-button"><a href="#activities-showcase" class="nav-button-link"><span class="fa fa-university fa-fw"></span> After-School</a></li>
+        </ul>
+    </nav>
+    <div class="main-content" id="main">
+        <div id="wrapper">
+            <div align="center">
+                <h1 class="main-title">Nate Blum</h1>
+            </div>
+            <div class="container showcase-div" id="tech-showcase">
+                <img src="img/tictactoe/RandomCodeShot.png">
+                <a href="" class="showcase-collapse" id="tech"><h2><span class="fa fa-microchip fa-fw"></span> Technology Projects <span id="tech-showcase-arrow" class="fa fa-angle-double-right fa-lg showcase-arrow"></span></h2></a>
+                <div class="showcase-dropdown" id="tech-dropdown">
+                    <div>
+                        <a href="" class="overlay-show" id="tictactoe">
+                            <p>TicTacToe (Java)</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="mobi">
+                            <p>Mobi (HTML/CSS/Javascript)</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="portfolio">
+                            <p>Portfolio (HTML/CSS/Javascript)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container showcase-div" id="pro-showcase">
+                <img src="img/hts/M.2Drive1.png">
+                <a href="" class="showcase-collapse" id="pro"><h2><span class="fa fa-briefcase fa-fw"></span> Professional Work <span id="pro-showcase-arrow" class="fa fa-angle-double-right fa-lg showcase-arrow"></span></h2></a>
+                <div class="showcase-dropdown" id="pro-dropdown">
+                    <div>
+                        <a href="" class="overlay-show" id="hts">
+                            <p>Hoboken Tech Solutions</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="flipto">
+                            <p>Flip.to Startup</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container showcase-div" id="camp-showcase" style="opacity: 0;">
+                <img src="img/planes/HoldingPlane.jpg">
+                <a href="" class="showcase-collapse" id="camp"><h2><span class="fa fa-calendar fa-fw"></span> Summer Camps <span id="camp-showcase-arrow" class="fa fa-angle-double-right fa-lg showcase-arrow"></span></h2></a>
+                <div class="showcase-dropdown" id="camp-dropdown">
+                    <div>
+                        <a href="" class="overlay-show" id="bigidea">
+                            <p>#BigIdea Israel</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="surfing">
+                            <p>Surf Academy</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="planes">
+                            <p>Tissan Hadera</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container showcase-div" id="activities-showcase" style="opacity: 0;">
+                <img src="img/javaclass/Helping.jpg">
+                <a href="" class="showcase-collapse" id="activities"><h2><span class="fa fa-university fa-fw"></span> Extracurricular Activities <span id="activities-showcase-arrow" class="fa fa-angle-double-right fa-lg showcase-arrow"></span></h2></a>
+                <div class="showcase-dropdown" id="activities-dropdown">
+                    <div>
+                        <a href="" class="overlay-show" id="violin">
+                            <p>Violin</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="art-extracurricular">
+                            <p>Art Class</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="javaclass">
+                            <p>Java Class</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="overlay-show" id="plays">
+                            <p>Plays</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <span class="fa fa-close fa-2x" id="overlay-close"></span></a>
+        <div class="document-content"></div>
+    </div>
+    <footer>
+        <span class="copyright">&copy; Nate Blum. All rights reserved. This website was coded completely from the ground up by Nate Blum to showcase his portfolio. The website itself is part of the portfolio.</span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
